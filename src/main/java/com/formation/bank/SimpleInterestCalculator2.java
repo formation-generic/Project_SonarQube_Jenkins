@@ -28,6 +28,10 @@ public class SimpleInterestCalculator2 implements InterestCalculator {
 	public void myEmptyMethod(){
 		
 	}
+	
+	public double devideWithBug(double num) {
+		return num / 0.00 ;
+	}
 
 }
 
