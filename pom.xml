@@ -10,9 +10,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!--  <sonar.java.spotbugs.reportPaths>./target/spotbugsXml.xml</sonar.java.spotbugs.reportPaths> -->
-		<!--  <sonar.java.pmd.reportPaths>./target/pmd.xml</sonar.java.pmd.reportPaths>
+		 <sonar.java.pmd.reportPaths>./target/pmd.xml</sonar.java.pmd.reportPaths>
 		<sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
--->
+
 	</properties>
 
 	<build>
