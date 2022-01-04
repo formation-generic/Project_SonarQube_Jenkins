@@ -25,6 +25,11 @@ public class SimpleInterestCalculator4 implements InterestCalculator {
 		return amount * year * rate;
 	}
 	
+	public double devideWithBug2(double num) {
+		return num / 0.00 ;
+	}
+
+	
 
 }
 
