@@ -9,10 +9,11 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<!--  <sonar.java.spotbugs.reportPaths>./target/spotbugsXml.xml</sonar.java.spotbugs.reportPaths> -->
-		 <sonar.java.pmd.reportPaths>./target/pmd.xml</sonar.java.pmd.reportPaths>
-		<sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
-
+		<!-- <sonar.java.spotbugs.reportPaths>./target/spotbugsXml.xml</sonar.java.spotbugs.reportPaths> -->
+		<sonar.java.pmd.reportPaths>target/pmd.xml</sonar.java.pmd.reportPaths>
+		<sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
+		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+		<sonar.language>java</sonar.language>
 	</properties>
 
 	<build>
@@ -23,6 +24,23 @@
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.2</version>
+
+
+				<!-- Ajouté par JHr pour exclure de la couverture certaines classe -->
+				<configuration>
+					<excludes>
+						<!-- Exclure certaines classes d'un package -->
+						<exclude>com/formation/bank/**/SimpleInterestCalculatorExclude*.class</exclude>
+						<!-- Exclure toutes les classes du package com.formation.test -->
+					   <exclude>com/formation/test/**/*.*</exclude>
+						<!-- <exclude>**/config/*</exclude> -->
+					</excludes>
+				</configuration>
+
+
+
+
+
 				<executions>
 					<execution>
 						<goals>
@@ -41,6 +59,8 @@
 			</plugin>
 
 
+
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
@@ -49,7 +69,7 @@
 					<ruleset>/rulesets/java/naming.xml</ruleset> </rulesets> </configuration> -->
 			</plugin>
 
-		
+
 
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>

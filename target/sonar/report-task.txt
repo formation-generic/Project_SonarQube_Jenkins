@@ -1,6 +1,6 @@
-projectKey=com.formation:Project_SonarQube
+projectKey=java-sonar-jhr-project-SQJ-mvn
 serverUrl=http://localhost:9000
-serverVersion=6.7.7.38951
-dashboardUrl=http://localhost:9000/dashboard/index/com.formation:Project_SonarQube
-ceTaskId=AXKiy7q75zdNxUbr1xBw
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXKiy7q75zdNxUbr1xBw
+serverVersion=7.9.6.41879
+dashboardUrl=http://localhost:9000/dashboard?id=java-sonar-jhr-project-SQJ-mvn
+ceTaskId=AX4smy4O3AxSzoWnu9tz
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX4smy4O3AxSzoWnu9tz

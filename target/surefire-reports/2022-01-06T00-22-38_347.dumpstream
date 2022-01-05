@@ -1,0 +1,4 @@
+# Created at 2022-01-06T00:22:40.196
+Boot Manifest-JAR contains absolute paths in classpath 'D:\AA\Pro\MonCatalogue\Jenkins\workspace\Project_SonarQube_Jenkins\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 import com.formation.bank.InterestCalculator;
-import com.formation.bank.SimpleInterestCalculator;
+import com.formation.bank.SimpleInterestCalculator4;
 
 
 
@@ -13,7 +13,7 @@ public class Tests2 {
 
 	@Before
 	public void init() {
-		interestCalculator = new SimpleInterestCalculator();
+		interestCalculator = new SimpleInterestCalculator4();
 		interestCalculator.setRate(0.05);
 	}
 
