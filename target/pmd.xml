@@ -1,3 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.5.1" timestamp="2022-01-06T00:22:30.098">
+<pmd version="5.5.1" timestamp="2022-01-06T08:52:15.740">
+<file name="D:\AA\Pro\MonCatalogue\Jenkins\workspace\Project_SonarQube_Jenkins\src\main\java\com\formation\bank\InterestCalculator.java">
+<violation beginline="3" endline="14" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="12" endline="12" begincolumn="10" endcolumn="54" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="InterestCalculator" method="calculate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\AA\Pro\MonCatalogue\Jenkins\workspace\Project_SonarQube_Jenkins\src\main\java\com\formation\bank\SimpleInterestCalculator.java">
+<violation beginline="3" endline="37" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator" variable="rate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="6" endline="6" begincolumn="16" endcolumn="31" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator" variable="rateName" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="9" endline="11" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator" method="setRate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="14" endline="26" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator" method="calculate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="28" endline="30" begincolumn="36" endcolumn="9" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.formation.bank" class="SimpleInterestCalculator" method="myEmptyMethod" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="28" endline="30" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator" method="myEmptyMethod" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="32" endline="34" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator" method="devide" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\AA\Pro\MonCatalogue\Jenkins\workspace\Project_SonarQube_Jenkins\src\main\java\com\formation\bank\SimpleInterestCalculator4.java">
+<violation beginline="3" endline="34" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator4" variable="rate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="6" endline="6" begincolumn="16" endcolumn="31" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator4" variable="rateName" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="9" endline="11" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator4" method="setRate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="14" endline="26" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator4" method="calculate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="28" endline="30" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculator4" method="devideWithBug2" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\AA\Pro\MonCatalogue\Jenkins\workspace\Project_SonarQube_Jenkins\src\main\java\com\formation\bank\SimpleInterestCalculatorExclude2.java">
+<violation beginline="3" endline="36" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude2" variable="rate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="6" endline="6" begincolumn="16" endcolumn="31" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude2" variable="rateName" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="9" endline="11" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude2" method="setRate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="14" endline="26" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude2" method="calculate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="28" endline="30" begincolumn="36" endcolumn="9" rule="UncommentedEmptyMethodBody" ruleset="Design" package="com.formation.bank" class="SimpleInterestCalculatorExclude2" method="myEmptyMethod" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#UncommentedEmptyMethodBody" priority="3">
+Document empty method body
+</violation>
+<violation beginline="28" endline="30" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude2" method="myEmptyMethod" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="32" endline="34" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude2" method="devideWithBug" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="D:\AA\Pro\MonCatalogue\Jenkins\workspace\Project_SonarQube_Jenkins\src\main\java\com\formation\bank\SimpleInterestCalculatorExclude3.java">
+<violation beginline="3" endline="29" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+headerCommentRequirement Required
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude3" variable="rate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="6" endline="6" begincolumn="16" endcolumn="31" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude3" variable="rateName" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="9" endline="11" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude3" method="setRate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="14" endline="26" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Comments" package="com.formation.bank" class="SimpleInterestCalculatorExclude3" method="calculate" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
 </pmd>

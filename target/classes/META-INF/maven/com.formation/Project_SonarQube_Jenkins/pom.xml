@@ -9,11 +9,15 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
+		<!-- Toutes les propriétés sonar définies ici ne servent que pour alimenter 
+			sonar avec mvn sonar:sonar -->
 		<!-- <sonar.java.spotbugs.reportPaths>./target/spotbugsXml.xml</sonar.java.spotbugs.reportPaths> -->
 		<sonar.java.pmd.reportPaths>target/pmd.xml</sonar.java.pmd.reportPaths>
 		<sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 		<sonar.language>java</sonar.language>
+
+
 	</properties>
 
 	<build>
@@ -26,14 +30,14 @@
 				<version>0.8.2</version>
 
 
-				<!-- Ajouté par JHr pour exclure de la couverture certaines classe -->
+				<!-- Ajouté par JHr pour exclure de la couverture certaines classes -->
 				<configuration>
 					<excludes>
 						<!-- Exclure certaines classes d'un package -->
 						<exclude>com/formation/bank/**/SimpleInterestCalculatorExclude*.class</exclude>
 						<!-- Exclure toutes les classes du package com.formation.test -->
-					   <exclude>com/formation/test/**/*.*</exclude>
-						<!-- <exclude>**/config/*</exclude> -->
+						<exclude>com/formation/test/**/*.*</exclude>
+						<!-- <exclude>**/test/*</exclude> -->
 					</excludes>
 				</configuration>
 
@@ -67,6 +71,18 @@
 				<version>3.7</version>
 				<!-- <configuration> <rulesets> <ruleset>/rulesets/java/braces.xml</ruleset> 
 					<ruleset>/rulesets/java/naming.xml</ruleset> </rulesets> </configuration> -->
+				
+				<!-- added by jhr to have pmd rules executed -->
+				<configuration>
+					<rulesets>
+						<ruleset>/rulesets/java/basic.xml</ruleset>
+						<ruleset>/rulesets/java/naming.xml</ruleset>
+						<ruleset>/rulesets/java/design.xml</ruleset>
+						<ruleset>/rulesets/java/braces.xml</ruleset>
+						<ruleset>/rulesets/java/codesize.xml</ruleset>
+						<ruleset>/rulesets/java/comments.xml</ruleset>
+					</rulesets>
+				</configuration>
 			</plugin>
 
 
